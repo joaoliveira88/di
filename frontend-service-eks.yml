@@ -11,6 +11,8 @@ spec:
   # an external load-balanced IP for the frontend service.
   # type: LoadBalancer
   type: LoadBalancer
+  externalIPs:
+  - 34.219.68.108
   ports:
   - port: 80
   selector:
